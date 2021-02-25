@@ -13,6 +13,8 @@
 		CB3E6D8725C6E09B00B256A0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3E6D8625C6E09B00B256A0 /* OpenGL.framework */; };
 		CB3E6D9225C6E11400B256A0 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = CB3E6D9125C6E11400B256A0 /* glad.c */; };
 		CB3E6D9625C6E15C00B256A0 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3E6D8825C6E0A200B256A0 /* GLUT.framework */; };
+		CB714B3925E7EFBD00488B16 /* HelloTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB714B3725E7EFBD00488B16 /* HelloTriangle.cpp */; };
+		CB714B4225E7F0B900488B16 /* Textures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB714B4025E7F0B900488B16 /* Textures.cpp */; };
 		CBDDBCF825CF7A1E00608184 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDDBCF725CF7A1E00608184 /* libGLTools.a */; };
 		CBDDBD0325CF7A7000608184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDDBD0225CF7A7000608184 /* main.cpp */; };
 		CBDDBD1625CF7EB100608184 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDDBD1525CF7EB100608184 /* libGLEW.2.2.0.dylib */; };
@@ -52,6 +54,10 @@
 		CB3E6D8D25C6E11400B256A0 /* khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
 		CB3E6D8F25C6E11400B256A0 /* glad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glad.h; sourceTree = "<group>"; };
 		CB3E6D9125C6E11400B256A0 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		CB714B3725E7EFBD00488B16 /* HelloTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloTriangle.cpp; sourceTree = "<group>"; };
+		CB714B3825E7EFBD00488B16 /* HelloTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloTriangle.hpp; sourceTree = "<group>"; };
+		CB714B4025E7F0B900488B16 /* Textures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Textures.cpp; sourceTree = "<group>"; };
+		CB714B4125E7F0B900488B16 /* Textures.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Textures.hpp; sourceTree = "<group>"; };
 		CBDDBCE825CF7A1E00608184 /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
 		CBDDBCE925CF7A1E00608184 /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
 		CBDDBCEA25CF7A1E00608184 /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
@@ -128,6 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				CBDDBD0225CF7A7000608184 /* main.cpp */,
+				CB714B3825E7EFBD00488B16 /* HelloTriangle.hpp */,
+				CB714B3725E7EFBD00488B16 /* HelloTriangle.cpp */,
+				CB714B4025E7F0B900488B16 /* Textures.cpp */,
+				CB714B4125E7F0B900488B16 /* Textures.hpp */,
 				CB3E6D8A25C6E11400B256A0 /* glad */,
 				CBDDBCE625CF7A1E00608184 /* libGLTools */,
 				CB3E6D5825C6E06400B256A0 /* Assets.xcassets */,
@@ -350,6 +360,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB714B3925E7EFBD00488B16 /* HelloTriangle.cpp in Sources */,
+				CB714B4225E7F0B900488B16 /* Textures.cpp in Sources */,
 				CBDDBD0325CF7A7000608184 /* main.cpp in Sources */,
 				CB3E6D9225C6E11400B256A0 /* glad.c in Sources */,
 			);
